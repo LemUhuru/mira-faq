@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.articles-list li, .categories-list li {
+  border: 1px solid blue;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+ul li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.page-title {
+  margin-bottom: 50px;
+}
+
+.category-title {
+  font-size: 24px;
+  margin: 50px 0;
+}
+
+.article-title {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.article-body {
+  display: none;
+}
+
+.article-body.active {
+  display: block;
+}
